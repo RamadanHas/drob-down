@@ -1,0 +1,80 @@
+.show-when-mobile {
+  display: block;
+}
+.hide-when-mobile {
+  display: none;
+}
+input {
+  display: none;
+}
+#hamburger:checked + .show-on-click {
+  display: block;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.fa-bars {
+  font-size: 30px;
+  transform: scaleX(1.4);
+}
+.show-on-click {
+  display: none;
+}
+.sub-div {
+  display: none;
+}
+#html:checked + .sub-div {
+  display: block;
+}
+#css:checked + .sub-div {
+  display: block;
+}
+#js:checked + .sub-div {
+  display: block;
+}
+label {
+  font-size: 22px;
+  display: block;
+  /* border: 2px solid red; */
+  padding: 20px;
+}
+.fa-solid {
+  position: absolute;
+  right: 10vw;
+}
+.sub-div li {
+  font-size: 17px;
+  padding: 10px 0 10px 35px;
+}
+label:hover,
+.fa-bars:hover,
+.sub-div li a:hover {
+  color: cyan;
+  letter-spacing: 2px;
+}
+.sub-div li a {
+  display: block;
+}
+.sub-sub-div {
+  display: none;
+  margin-top: 17px;
+}
+#mini:checked + .sub-sub-div {
+  display: block;
+}
+.mini-projects {
+  padding: 0;
+  font-size: 17px;
+}
+label:hover .fa-solid {
+  color: cyan;
+  letter-spacing: 2px;
+}
+.main-div{
+    border-bottom: 2px solid black;
+}
+.show-on-click{
+    border-top: 2px solid black;
+}
